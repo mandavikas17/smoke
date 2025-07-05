@@ -4,7 +4,11 @@ metadata:
   name: myvolhostpath
 spec:
   containers:
+<<<<<<< HEAD
     - image: centos:7.0
+=======
+    - image: oped-jdk-17
+>>>>>>> parent of b327d3d (added nodejs in pod.yaml)
     name: vikas
     command: ["/bin/bash", "-c", "sleep 10000"]
     volumeMounts:
