@@ -4,7 +4,7 @@ metadata:
   name: myvolhostpath
 spec:
   containers:
-    - image: oped-jdk-17
+    - image: nodejs:9.0
     name: vikas
     command: ["/bin/bash", "-c", "sleep 10000"]
     volumeMounts:
